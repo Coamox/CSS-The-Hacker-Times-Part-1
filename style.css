@@ -38,7 +38,7 @@ img{
     width: 100%;
 }
 
-div.newspaper-container{
+.newspaper-container{
     margin: 0 auto;
     max-width: 700px;
     border-radius: 1%;
@@ -47,8 +47,14 @@ div.newspaper-container{
     padding: 1%;
 }
 
-div.more-articles{
-    
+.more-articles{
+overflow: auto;
+}
+
+section{
+    float: left;
+    max-width:45%;
+    padding: 15px;    
 }
 
 nav {
