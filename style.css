@@ -39,12 +39,16 @@ img{
 }
 
 .newspaper-container{
-    margin: 0 auto;
+    margin: 25px auto;
     max-width: 700px;
     border-radius: 1%;
     box-shadow: #ddd;
     background-color: white;
     padding: 1%;
+}
+
+main{
+    border-bottom: 1px solid #777;
 }
 
 .more-articles{
@@ -59,6 +63,8 @@ section{
 
 nav {
     padding: 1px;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
 }
 
 nav ul {
